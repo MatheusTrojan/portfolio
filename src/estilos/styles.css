@@ -1,0 +1,30 @@
+@import url("../estilos/cabecalho.css");
+@import url("../estilos/projetos.css");
+
+:root {
+    --fonte-principal: 'Poppins';
+
+    --fundo-principal:#041832;
+    --fundo-secundario:#3468A7;
+    --branco:#ECF4FF;
+    --cor-fonte: #1C1C1C;
+}
+
+.container {
+    background: linear-gradient(236.85deg, var(--fundo-principal) 27.26%, var(--fundo-secundario) 95%);
+    background-repeat: no-repeat;
+    color: var(--cor-fonte);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.container__margem {
+    background: var(--branco);
+    border-radius: 1.5rem;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 2.5rem 2rem 0 2rem;
+    min-height: calc(100% - 2rem);
+}
