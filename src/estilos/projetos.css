@@ -1,16 +1,22 @@
-.lista__projetos {
-    align-items: flex-start;
-    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
-    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
-    border-radius: 20px;
+.projetos {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    background: linear-gradient(236.85deg, #4f83c2 27.26%, #8fb3df 96.03%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    padding: 2.5rem;
     margin: 1rem;
-    gap: 1.2rem;
+}
+
+.lista__projetos {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.8em;
 }
 
 .projetos__link {
     color: var(--fonte-principal);
+    font-size: 1.1rem;
+    font-weight: 400;
     text-decoration: none;
 }

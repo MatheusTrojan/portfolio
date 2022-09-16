@@ -1,0 +1,25 @@
+.rodape {
+    align-items: center;
+    background: linear-gradient(230.65deg, var(--cinza-medio) 27.49%, var(--cinza-claro) 83.19%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.rodape__texto {
+    font-size: 0.8rem;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.rodape__redes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.redes__sociais {
+    padding-right: 1rem;
+    min-width: 2em
+}

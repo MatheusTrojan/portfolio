@@ -1,5 +1,7 @@
 @import url("../estilos/cabecalho.css");
 @import url("../estilos/projetos.css");
+@import url("../estilos/rodape.css");
+@import url("../estilos/dark.css");
 
 :root {
     --fonte-principal: 'Poppins';
@@ -7,24 +9,29 @@
     --fundo-principal:#041832;
     --fundo-secundario:#3468A7;
     --branco:#ECF4FF;
+    --cinza-escuro: #5e5f63;
+    --cinza-medio: #9e9e9e;
+    --cinza-claro: #b6b6b6;
+
     --cor-fonte: #1C1C1C;
 }
 
 .container {
-    background: linear-gradient(236.85deg, var(--fundo-principal) 27.26%, var(--fundo-secundario) 95%);
+    background: linear-gradient(236.85deg, var(--cinza-escuro) 27.26%, var(--cinza-medio) 95%);
     background-repeat: no-repeat;
     color: var(--cor-fonte);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    height: 100vh;
-    padding: 2rem;
+    height: 100%;
 }
 
 .container__margem {
     background: var(--branco);
     border-radius: 1.5rem;
     box-shadow: 6px 6px 6px #0E1D2F;
-    padding: 2.5rem 2rem 0 2rem;
-    min-height: calc(100% - 2rem);
+    min-height: calc(100vh - 100px);
+    margin: 2.5rem 2rem 2rem 2rem;
+    padding: 2.5rem 2rem 1.5rem 2rem;
 }
+

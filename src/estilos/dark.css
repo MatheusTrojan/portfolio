@@ -1,0 +1,20 @@
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container__margem, .dark .alterar__tema {
+    background: #333439;
+    color: var(--branco);    
+}
+
+.dark .alterar__tema {
+    border: 2px solid var(--branco);
+}
+
+.dark .projetos {
+    color: var(--cor-fonte);
+}
+
+.dark .rodape {
+    background: #5e5f63;
+}

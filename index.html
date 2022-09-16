@@ -15,38 +15,53 @@
 	<body class="container">
 		<div class="container__margem">
 			<header class="cabecalho">
-				<img src="src/images/foto-perfil.jpg" class="cabecalho__imagem" alt="Foto de Perfil de Matheus Trojan">
-				<section class="cabecalho__items">
+				<div class="perfil">
+					<img src="src/images/foto-perfil.jpg" class="cabecalho__imagem" alt="Foto de Perfil de Matheus Trojan">
 					<div class="cabecalho__textos">
 						<h1 class="cabecalho__titulo">Matheus Trojan</h1>
 						<h3 class="cabecalho__subtitulo">Desenvolvedor Front-End</h3>
 					</div>
-					<div class="cabecalho__redes">
-						<a href="https://github.com/MatheusTrojan" class="redes__sociais">
-							<img src="src/images/github.svg" alt="Acesse meu Github">Github
-						</a>
-						<a href="https://www.linkedin.com/in/matheus-trojan/" class="redes__sociais">
-							<img src="src/images/linkedin.svg" alt="Acesse meu LinkedIn">
-						</a>
-					</div>
-				</section>
+				</div>
+				<div class="tema">
+					<button class="alterar__tema" onclick="mudaTema()">Alterar Tema</button>
+				</div>
 			</header>
 
-			<main>
+			<main class="projetos">
 				<ul class="lista__projetos">Projetos
-					<li class="projetos__item">
-						<a href="https://calculadora-alura.vercel.app/" class="projetos__link">🔢 Calculadora e Conversor</a>
+					<li class="projetos__item"><a href="https://calculadora-alura.vercel.app/" class="projetos__link">Calculadora e Conversor</a>
+						<p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="GRdWpVd" data-user="matheustrojan" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+							<span>See the Pen <a href="https://codepen.io/matheustrojan/pen/GRdWpVd">
+							Conversor e Calculadora</a> by Matheus Trojan (<a href="https://codepen.io/matheustrojan">@matheustrojan</a>)
+							on <a href="https://codepen.io">CodePen</a>.</span>
+						  </p>
+						  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 					</li>
 					<li class="projetos__item">
-						<a href="https://jogo-adivinhacao-nine.vercel.app/" class="projetos__link">🔮 Jogo de Adivinhação</a>
+						<a href="https://jogo-adivinhacao-nine.vercel.app/" class="projetos__link">Jogo de Adivinhação</a>
 					</li>
 					<li class="projetos__item">
-						<a href="https://super-trunfo-ten.vercel.app/" class="projetos__link">🃏 Super Trunfo</a>
+						<a href="https://super-trunfo-ten.vercel.app/" class="projetos__link">Super Trunfo</a>
 					</li>
 				</ul>
 			</main>
 		</div>
 
-		
+		<footer class="rodape">
+			<p class="rodape__texto">Minhas redes sociais</p>
+			<div class="rodape__redes">
+				<a href="https://github.com/MatheusTrojan" class="redes__sociais">
+					<img src="src/images/github.svg" alt="Acesse meu Github">
+				</a>
+				<a href="https://www.linkedin.com/in/matheus-trojan/" class="redes__sociais">
+					<img src="src/images/linkedin.svg" alt="Acesse meu LinkedIn">
+				</a>
+				<a href="https://www.instagram.com/matheustrojan/" class="redes__sociais">
+					<img src="src/images/square-instagram.svg" alt="Acesse meu Instagram">
+				</a>
+			</div>
+		</footer>
+
+		<script src="src/js/tema.js"></script>
 	</body>
 </html>
